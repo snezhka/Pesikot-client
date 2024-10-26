@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+[class*='MuiOutlinedInput-input']{
+  width: 250px;
+}
+
+[class*='MuiButton']{
+  width: 150px;
+  height: 45px;
 }
