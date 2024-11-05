@@ -86,7 +86,7 @@ export function SignUpForm() {
 
             {/* Age Select */}
             <FormControl fullWidth sx={{ mb: 2 }}>
-                <InputLabel>Age</InputLabel>
+                <InputLabel>Password</InputLabel>
                 <TextField
                     label="Password"
                     name="password"
